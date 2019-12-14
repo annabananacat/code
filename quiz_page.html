@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+	<link href="css/styles.css" rel="stylesheet" type="text/css">
+	<script src="js/jquery-3.4.1.js"></script>
+	<script src="js/scripts.js"></script>
+	<title>Language Quiz</title>
+</head>
+
+<body>
+	<div class="container">
+		<div class="jumbotron">
+			<h1>What language should I focus on?</h1>
+			<p>Take our quiz to find out.</p>
+		</div>
+		<form id="quiz">
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<h2 class="panel-title">What are you drawn to?</h2>
+				</div>
+				<div class="panel-body">
+					<div class="radio">
+						<label>
+							<input type="radio" name="question1" value="Art" checked>Art</label>
+					</div>
+					<div class="radio">
+						<label>
+							<input type="radio" name="question1" value="Object orientation">Object orientation</label>
+					</div>
+					<div class="radio">
+						<label>
+							<input type="radio" name="question1" value="Patterns and complex situations">Patterns and complex situations</label>
+					</div>
+					<div class="radio">
+						<label>
+							<input type="radio" name="question1" value="Math and special effects">Math and special effects</label>
+					</div>
+					<div class="radio">
+						<label>
+							<input type="radio" name="question1" value="Web applications">Web applications</label>
+					</div>
+					<div class="radio">
+						<label>
+							<input type="radio" name="question1" value="Databases">Databases</label>
+					</div>
+				</div>
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<h2 class="panel-title">What would be your ideal trip?</h2>
+					</div>
+					<div class="panel-body">
+						<div class="radio">
+							<label>
+								<input type="radio" name="question2" value="Paris" checked>Paris</label>
+						</div>
+						<div class="radio">
+							<label>
+								<input type="radio" name="question2" value="China">China</label>
+						</div>
+						<div class="radio">
+							<label>
+								<input type="radio" name="question2" value="Italy">Italy</label>
+						</div>
+						<div class="radio">
+							<label>
+								<input type="radio" name="question2" value="Germany">Germany</label>
+						</div>
+						<div class="radio">
+							<label>
+								<input type="radio" name="question2" value="Japan">Japan</label>
+						</div>
+						<div class="radio">
+							<label>
+								<input type="radio" name="question2" value="Spain">Spain</label>
+						</div>
+					</div>
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<h2 class="panel-title">What is your dream company to work for?</h2>
+						</div>
+						<div class="panel-body">
+							<div class="radio">
+								<label>
+									<input type="radio" name="question3" value="Amazon" checked>Amazon</label>
+							</div>
+							<div class="radio">
+								<label>
+									<input type="radio" name="question3" value="Airbnb">Airbnb</label>
+							</div>
+							<div class="radio">
+								<label>
+									<input type="radio" name="question3" value="Wikipedia">Wikipedia</label>
+							</div>
+							<div class="radio">
+								<label>
+									<input type="radio" name="question3" value="Facebook">Facebook</label>
+							</div>
+							<div class="radio">
+								<label>
+									<input type="radio" name="question3" value="Apple">Apple</label>
+							</div>
+							<div class="radio">
+								<label>
+									<input type="radio" name="question3" value="Netflix">Netflix</label>
+							</div>
+						</div>
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<h2 class="panel-title">What is your favorite activity?</h2>
+							</div>
+							<div class="panel-body">
+								<div class="radio">
+									<label>
+										<input type="radio" name="question4" value="Crafts" checked>Crafts</label>
+								</div>
+								<div class="radio">
+									<label>
+										<input type="radio" name="question4" value="Creating easy to use situations">Creating easy to use situations</label>
+								</div>
+								<div class="radio">
+									<label>
+										<input type="radio" name="question4" value="Blogging">Blogging</label>
+								</div>
+								<div class="radio">
+									<label>
+										<input type="radio" name="question4" value="Solving puzzles">Solving puzzles</label>
+								</div>
+								<div class="radio">
+									<label>
+										<input type="radio" name="question4" value="Playing games">Playing games</label>
+								</div>
+								<div class="radio">
+									<label>
+										<input type="radio" name="question4" value="Playing around with building stuff">Playing around with building stuff</label>
+								</div>
+							</div>
+							<div class="panel panel-default">
+								<div class="panel-heading">
+									<h2 class="panel-title">How would your friends descibe you?</h2>
+								</div>
+								<div class="panel-body">
+									<div class="radio">
+										<label>
+											<input type="radio" name="question5" value="Artistic" checked>Artistic</label>
+									</div>
+									<div class="radio">
+										<label>
+											<input type="radio" name="question5" value="Logical">Logical</label>
+									</div>
+									<div class="radio">
+										<label>
+											<input type="radio" name="question5" value="A deep thinker">A deep thinker</label>
+									</div>
+									<div class="radio">
+										<label>
+											<input type="radio" name="question5" value="Problem solving">Problem solving</label>
+									</div>
+									<div class="radio">
+										<label>
+											<input type="radio" name="question5" value="Creative">Creative</label>
+									</div>
+									<div class="radio">
+										<label>
+											<input type="radio" name="question5" value="Diplomatic">Diplomatic</label>
+									</div>
+								</div>
+								<button type="submit" class="btn">Go!</button>
+		</form>
+		</div>
+		<div class="panel panel-default">
+			<div class="panel-heading">
+				<h2 class="panel-title">You should focus on:</h2>
+			</div>
+			<div class="panel-body">
+				<div id="output"></div>
+			</div>
+</body>
+
+</html>
