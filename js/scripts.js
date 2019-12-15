@@ -92,15 +92,15 @@ $(document).ready(function() {
     var result;
       if (result6 <= 1) {
         result = "HTML";
-      } else if (result6 > 1 && result5 <= 4) {
+      } else if (result6 > 1 && result6 <= 6) {
         result = "Ruby";
-      } else if (result6 > 4 && result5 <= 8) {
+      } else if (result6 > 6 && result6 <= 12) {
         result = "PHP";
-      } else if (result6 > 8 && result5 <=12) {
+      } else if (result6 > 12 && result6 <=18) {
         result = "JavaScript";
-      } else if (result6 > 12 && result5 <=16) {
+      } else if (result6 > 18 && result6 <=24) {
         result = "Script";
-      }  else if (result6 > 16 && result5 <=20) {
+      }  else if (result6 > 24 && result6 <=30) {
         result = "SQL";
       }
 

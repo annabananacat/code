@@ -68,3 +68,10 @@ h1, h2, h5 {
   height: 500px;
   color: #fff;
 }
+
+#quiz {
+  padding: 5%;
+  color: #fff;
+}
+
+.jumbotron {text-align: center;}
