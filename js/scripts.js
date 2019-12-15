@@ -16,7 +16,7 @@ $(document).ready(function() {
     var result1;
       if (drawnTo === "Art") {
         result1 = 0;
-      } else if (drawnTo === "Object 0rientation") {
+      } else if (drawnTo === "Object orientation") {
         result1 = 1;
       } else if (drawnTo === "Patterns and complex situations") {
         result1 = 2;
